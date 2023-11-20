@@ -1,0 +1,28 @@
+.quizCheck {
+  border-collapse: collapse; /* 테이블 선이 겹치지 않도록 설정 */
+  width: 100%;
+  padding: auto;
+  border: 4px;
+}
+
+.quizCheck th,
+.quizCheck td {
+  border: 5px solid black; /* 선 스타일 설정 */
+  padding: 8px;
+  text-align: left;
+}
+
+.quizCheck th {
+  background-color: black; /* 헤더 색상 설정 */
+}
+
+.button-container {
+  display: inline;
+  justify-content: center;
+  margin-top: 20px; /* 버튼 그룹 위쪽 여백을 조절하세요 */
+}
+
+.button-container button {
+  margin: 0 10px; /* 버튼 간의 간격을 조절하세요 */
+  /* 다른 버튼 스타일을 추가하세요 (색상, 패딩 등) */
+}

@@ -1,0 +1,69 @@
+.question-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  height: 250px;
+  width: 300px;
+
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  background-color: white;
+  border-radius: 40px;
+
+  margin-top: 5%;
+  /* margin-bottom: 20%; */
+  font-size: 25px;
+}
+
+.answer-four {
+  display: flex;
+  justify-content: center; /* 중앙 정렬을 위해 추가 */
+  flex-wrap: wrap; /* 항목들이 여러 줄로 나뉘어질 수 있게 함 */
+  margin: 0 auto; /* 수평 중앙 정렬을 위해 추가 */
+}
+
+/* 공통 스타일 */
+.answer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 15px 30px;
+  border-radius: 20px;
+  font-size: 16px;
+  height: 60px;
+  width: 80px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* hover 효과 */
+.answer-box:hover {
+  opacity: 0.8;
+}
+
+/* 개별 색상 스타일 */
+.answer-box-one {
+  background-color: #3498db; /* 파란색 */
+  color: white;
+}
+
+.answer-box-two {
+  background-color: #2ecc71; /* 녹색 */
+  color: white;
+}
+
+.answer-box-three {
+  background-color: #f1c40f; /* 노란색 */
+  color: white;
+}
+
+.answer-box-four {
+  background-color: #e74c3c; /* 빨간색 */
+  color: white;
+}

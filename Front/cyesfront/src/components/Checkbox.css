@@ -1,0 +1,20 @@
+/* Checkbox.css */
+
+.custom-checkbox {
+    font-size: 30px; /* 원하는 폰트 크기로 조절 */
+    margin-bottom: 8px; /* 옵션: 원하는 여백을 추가할 수 있습니다. */
+    margin-left: 10px;
+  }
+  
+  .custom-checkbox input[type="checkbox"] {
+    width: 20px; /* 원하는 너비로 조절 */
+    height: 20px; /* 원하는 높이로 조절 */
+    margin-right: 5px; /* 옵션: 체크박스와 레이블 간의 여백을 추가할 수 있습니다. */
+  }
+  
+  /* 선택한 경우의 스타일링을 추가할 수도 있습니다 */
+  .custom-checkbox input[type="checkbox"]:checked {
+    /* 선택한 경우의 스타일 */
+    background-color: #af6b4c;
+  }
+  

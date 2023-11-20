@@ -1,0 +1,30 @@
+.horizontal-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.horizontal-pagination button {
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0 5px; /* 페이지 번호 및 버튼 사이의 여백 설정 */
+  cursor: pointer;
+}
+
+.horizontal-pagination button.active {
+  background-color: greenyellow;
+}
+
+.horizontal-pagination button.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.selections {
+  display: inline;
+}

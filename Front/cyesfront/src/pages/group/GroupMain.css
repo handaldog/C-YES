@@ -1,0 +1,136 @@
+.group-main-container {
+  padding: 10% 10% 0% 10%;
+}
+
+.group-title-container {
+  font-size: 35px;
+  margin-bottom: 3%;
+
+  text-align: center; /* 텍스트 가운데 정렬 */
+}
+
+.group-description-container {
+  white-space: pre-line;
+  color: gray;
+}
+
+.group-search-container {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+  padding: 3%;
+
+  font-size: 20px;
+  display: flex; /* Flexbox 사용 */
+  align-items: center; /* 세로 중앙 정렬 */
+  gap: 3%; /* img와 input 사이의 간격 */
+}
+
+.group-search-container img {
+  width: 10%;
+  height: 10%;
+}
+
+.group-search-container input {
+  width: 80%;
+  height: 10%;
+  border: none; /* 테두리 제거 */
+  outline: none; /* 포커스 시 나타나는 윤곽선 제거 */
+  font-size: 16px; /* 글꼴 크기 조정 */
+}
+
+.fast-quiz-container {
+  margin-top: 10%;
+}
+
+.quiz-text-container {
+  font-size: 20px;
+}
+
+.fast-quiz-lineup-container {
+  display: flex; /* Flexbox 사용 */
+  align-items: center; /* 세로 중앙 정렬 */
+  gap: 15%;
+}
+
+.fast-quiz-box {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 3%;
+  padding: 3%;
+}
+
+.quiz-box-title {
+  font-size: 18px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.quiz-box-text {
+  margin-top: 3%;
+  color: gray;
+}
+.quiz-box-text-sharp {
+  margin-top: 3%;
+  color: #8FB5FF;
+}
+
+.group-result-container {
+  margin-top: 10%;
+}
+
+.result-quiz-box {
+  height: 250px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 3%;
+  padding: 3%;
+  display: flex; /* Flexbox 사용 */
+  flex-direction: column; /* 자식 요소들을 세로 방향으로 정렬 */
+  align-items: flex-start; /* 세로 시작 정렬 (상단부터 시작) */
+  overflow-y: auto; /* 세로 방향으로 스크롤 생성 */
+}
+
+.each-result-quiz-box {
+  width: 90%;
+  height: 70px;
+  margin-top: 3%;
+  padding: 3%;
+  border-bottom: 1px solid lightblue; /* 아래쪽 테두리 설정 */
+}
+.search-box-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.search-box-text {
+  color: gray;
+}
+
+.group-background {
+  /* margin-left: 13%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 10px;
+  width: 220px;
+  height: 80px;
+
+
+  background-image: url("/public/img/back-blue.png"); /* 이미지 경로 지정 */
+  background-size: cover; /* 이미지를 커버하는 크기로 확대/축소 */
+  background-position: center; /* 이미지를 중앙 정렬 */
+  background-repeat: no-repeat; /* 이미지 반복 없음 */
+  z-index: 1;
+}
+
+.group-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,46 @@
+.cs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 중앙 수직 정렬 */
+  align-items: center; /* 중앙 수평 정렬 */
+  height: 100%; /* 뷰포트 높이에 따른 전체 높이 설정 */
+}
+
+.cs-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1; /* 컨텐츠가 live-container 내에서 남은 공간을 모두 차지하도록 함 */
+  margin-bottom: 15%;
+}
+
+.button-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-element {
+  margin-top: 35px;
+}
+
+.cs-text-container {
+  font-size: 36px;
+  
+}
+
+.cs-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  width: 220px;
+  height: 80px;
+  background-image: url("/public/img/back-orange.png"); /* 이미지 경로 지정 */
+  background-size: cover; /* 이미지를 커버하는 크기로 확대/축소 */
+  background-position: center; /* 이미지를 중앙 정렬 */
+  background-repeat: no-repeat; /* 이미지 반복 없음 */
+}

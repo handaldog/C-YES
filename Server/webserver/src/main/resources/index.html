@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket Quiz</title>
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.5.1/sockjs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+<div id="quiz">
+    <div id="submissions"></div>
+    <input type="number" id="memberId" placeholder="Member ID">
+    <input type="number" id="quizId" placeholder="Quiz ID">
+    <input type="number" id="problemOrder" placeholder="Problem Order">
+    <textarea id="submitContent" placeholder="Submit Content"></textarea>
+    <button onclick="sendSubmission()">Submit</button>
+</div>
+
+<script>
+
+    let socket = new SockJS('http://localhost:5000/api/ws/quiz');
+    let stompClient = Stomp.over(socket);
+    let headers = {};  // 필요한 헤더를 추가하세요.
+
+    stompClient.connect(headers, function(frame) {
+        console.log('Connected: ' + frame);
+        stompClient.subscribe('/sub/quiz/session/1', function(submissionOutput) {
+            showSubmissionOutput(JSON.parse(submissionOutput.body));
+        });
+    });
+
+    function sendSubmission() {
+        let memberId = document.getElementById('memberId').value;
+        let quizId = document.getElementById('quizId').value;
+        let problemOrder = document.getElementById('problemOrder').value;
+        let submitContent = document.getElementById('submitContent').value;
+
+        let submissionRequest = {
+            memberId: memberId,
+            quizId: quizId,
+            problemOrder: problemOrder,
+            submitContent: submitContent
+        };
+
+        stompClient.send("/pub/session/message/submit", {}, JSON.stringify(submissionRequest));
+        document.getElementById('submitContent').value = '';
+    }
+
+    function showSubmissionOutput(submissionOutput) {
+        let submissions = document.getElementById('submissions');
+        let submissionElement = document.createElement('div');
+        submissionElement.innerText = submissionOutput.submitContent;  // 서버에서 보내는 JSON의 필드와 일치해야 함.
+        submissions.appendChild(submissionElement);
+    }
+</script>
+
+</body>
+</html>

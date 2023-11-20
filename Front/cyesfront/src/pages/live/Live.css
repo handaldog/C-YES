@@ -1,0 +1,41 @@
+/* Live.css */
+
+.live-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 중앙 수직 정렬 */
+  align-items: center; /* 중앙 수평 정렬 */
+  height: 100%; /* 뷰포트 높이에 따른 전체 높이 설정 */
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1; /* 컨텐츠가 live-container 내에서 남은 공간을 모두 차지하도록 함 */
+}
+
+.title-text {
+  display: flex;
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  gap: 10px; /* p와 img 사이의 간격 */
+  width: 100%; /* 100% 너비로 설정 */
+  margin-left: 10%;
+}
+
+.title-text img {
+  width: 250px;
+  height: auto; /* 비율 유지를 위해 auto로 설정 */
+}
+
+.title-text p {
+  font-size: 45px;
+  color: #4c69ff;
+  margin: 0; /* 여백 제거 */
+}
+
+.bottom_notice {
+  font-size: 25px;
+}

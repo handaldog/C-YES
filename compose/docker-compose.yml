@@ -1,0 +1,32 @@
+version: "3"
+services:
+  
+  server:
+    image: cyes-back:latest
+    container_name: cyes-back
+    build:
+      context: ./Server/webserver
+
+    ports:
+        - 5000:5000
+    environment:
+        - TZ=Asia/Seoul
+    networks:
+      - cyes_network
+  
+  client:
+    image: cyes-front:latest
+    container_name: cyes-front
+    build:
+      context: ./Front/cyesfront
+      dockerfile: Dockerfile
+    ports:
+      - 9510:80
+    depends_on:
+      - server
+    networks:
+      - cyes_network
+
+networks:
+  cyes_network:
+    driver: bridge

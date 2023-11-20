@@ -1,0 +1,27 @@
+.nav-button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  outline: none;
+  padding: 5px 10px; /* 조절하면서 적절한 패딩 값을 선택하세요. */
+  border-radius: 5px; /* 선택된 상태에서 둥근 모서리를 위해 */
+}
+
+.nav-button img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px; /* 이미지와 텍스트 사이의 간격을 위해 */
+}
+
+.nav-button span {
+  font-family: "Dovemayo_gothic";
+}
+
+/* 선택된 상태에서의 배경색. 원하는 색상으로 변경 가능 */
+/* .nav-button.selected {
+  background-color: #652d2d; 
+} */

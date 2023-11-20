@@ -1,0 +1,9 @@
+.con-layer {
+    position: flex; 
+    z-index: 1; 
+  }
+  
+  .modal {
+    z-index: 0;
+  }
+  

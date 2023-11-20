@@ -1,0 +1,33 @@
+    
+.dropdown-content{
+    margin-top: 30px;
+    
+}
+.date-content{
+    margin-top: 30px;
+    
+}
+.custom-datepicker{
+    width: 250px;
+    height: 35px;
+    border: 0px solid white;
+    border-radius: 4px;
+}
+.textarea {
+    width: 250px;
+    height: 35px;
+    border: 0px solid white;
+    border-radius: 4px;
+}
+ 
+.group-button-content{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+  }
+  .group-title{
+    font-size: 30px;
+  }

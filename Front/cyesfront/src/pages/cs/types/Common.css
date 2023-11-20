@@ -1,0 +1,36 @@
+.cs-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* 왼쪽 정렬로 시작하되 */
+}
+
+.x-image-container {
+  margin: 10%;
+}
+
+.title-text-container {
+  flex-grow: 0.5;
+  font-size: 40px;
+  text-align: center; /* 중앙에 텍스트를 정렬 */
+}
+
+.bottom-next {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+
+  height: 20px;
+  width: 300px;
+
+  margin: 0 auto;
+  padding: 20px;
+
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  margin-top: 10%;
+  margin-bottom: 20%;
+  font-size: 15px;
+}

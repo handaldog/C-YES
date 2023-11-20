@@ -1,0 +1,70 @@
+
+  .card-tf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    height: 220px;
+    width: 300px;
+  
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+    background-color: white;
+    border-radius: 40px;
+  
+    margin-top: 10%;
+    margin-bottom: 20%;
+    font-size: 25px;
+  
+    position: relative;
+    transition: 0.4s;
+    transform-style: preserve-3d;
+  }
+  
+  
+ 
+  .submit-button-content{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+  }
+  .box{
+    margin-right: 30px;
+
+  }
+
+  .modal-content-tf {
+    background-color: white;
+    margin-top: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    height: 20%;
+    width: 200px;
+
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+  }
+  .modal-tf {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    position: fixed; /* 화면에 고정된 위치 */
+    top: 0;
+    left: 0;
+ 
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.1); /* 배경을 투명 검정으로 만듭니다 */
+    z-index: 1; /* 다른 요소 위에 놓이도록 설정 */
+  }
+  

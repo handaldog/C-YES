@@ -1,0 +1,64 @@
+server:
+    port: 5000
+
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/cyesdb?autoReconnect=true&serverTimezone=Asia/Seoul&useUnicode=true&characterEncoding=utf8
+        username: root
+        password: root
+    jpa:
+        hibernate:
+            ddl-auto: create
+        properties:
+            hibernate:
+                format_sql: true
+        show-sql: true
+    sql:
+        init:
+            mode: always
+
+# For MongoDB
+    data:
+        mongodb:
+            uri: mongodb://localhost:27017/cyesdb
+
+    redis:
+        host: localhost
+        port: 6379
+        password:
+
+logging:
+    level:
+        org:
+            hibernate:
+                SQL: debug
+                type: trace
+
+
+springdoc:
+    packages-to-scan: com.cyes.webserver.domain
+    default-consumes-media-type: application/json;charset=UTF-8
+    default-produces-media-type: application/json;charset=UTF-8
+    swagger-ui:
+        path: /api/
+        disable-swagger-default-url: true
+        display-request-duration: true
+        operations-sorter: alpha
+
+
+jwt:
+    secret-key: Z29nby10bS1zZXJ2ZXItZGxyamVvYW9yb3JodG9kZ290c3Atam9vbmdhbmduaW0teWVvbHNpbWhpaGFsZ2VveW8K
+
+oauth:
+    kakao:
+        client-id: 17a1b4d9fcc605cecc82fd7399c0717f
+        url:
+            auth: https://kauth.kakao.com
+            api: https://kapi.kakao.com
+    naver:
+        secret: W_2DmcLfYU
+        client-id: Y2i4SlApP7A1KZsUoott
+        url:
+            auth: https://nid.naver.com
+            api: https://openapi.naver.com

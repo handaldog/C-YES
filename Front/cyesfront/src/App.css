@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100vw;
+  height: 160vh; /* 화면 전체 높이 */
+  background-color: #fff9f1; /* 선택적인 배경색 */
+  /* overflow: hidden;   */
+}
+
+.App {
+  width: 100vw;
+  height: 140vh;
+  overflow: false;
+  background-color: #fff9f1; /* 앱 배경색 */
+  /* overflow-y: auto; */
+  overflow-y: auto;
+  overflow-x: hidden;
+}

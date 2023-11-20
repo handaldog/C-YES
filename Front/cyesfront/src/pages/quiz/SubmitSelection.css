@@ -1,0 +1,51 @@
+.select-answer-four {
+    display: flex;
+    justify-content: center; /* 중앙 정렬을 위해 추가 */
+    flex-wrap: wrap; /* 항목들이 여러 줄로 나뉘어질 수 있게 함 */
+    margin: 0 auto; /* 수평 중앙 정렬을 위해 추가 */
+}
+
+.select-answer-four > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    height: 60px;
+    width: 80px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* hover 효과 */
+.select-answer-four > div:hover {
+    opacity: 0.8;
+}
+
+/* 개별 색상 스타일 */
+.select-answer-box-blue {
+    background-color: #3498db; /* 파란색 */
+    color: white;
+}
+
+.select-answer-box-green {
+    background-color: #2ecc71; /* 녹색 */
+    color: white;
+}
+
+.select-answer-box-yellow {
+    background-color: #f1c40f; /* 노란색 */
+    color: white;
+}
+
+.select-answer-box-red {
+    background-color: #e74c3c; /* 빨간색 */
+    color: white;
+}
+
+.select-answer-box-incorrect {
+    opacity: 0.2;
+}

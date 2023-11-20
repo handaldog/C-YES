@@ -1,0 +1,38 @@
+/* 드롭다운 컴포넌트 스타일 */
+.dropdown {
+    width: 250px;
+    height: 35px;
+    position: relative;
+    display: inline-block;
+    border-radius: 4px;
+  }
+  
+  .dropdown-toggle {
+   
+    cursor: pointer;
+    padding: 8px 12px;
+    background-color: #ffffff;
+
+    border-radius: 4px;
+  }
+  
+  .dropdown-menu {
+    /* border: 1px solid grey; */
+    width: 250px;
+    z-index: 1;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: block;
+    background-color: #d1d1d1;
+    border-radius: 4px;
+    margin-top: 4px;
+  }
+  
+  .dropdown-item {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  /* 드롭다운 토글 아이콘을 추가하려면 여기에 추가 스타일을 정의할 수 있습니다. */
+  

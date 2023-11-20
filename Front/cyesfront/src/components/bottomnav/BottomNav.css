@@ -1,0 +1,17 @@
+/* BottomNav.css */
+
+.bottom-nav-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+
+  position: fixed; /* 고정 위치 설정 */
+  left: 0; /* 왼쪽 정렬 */
+  bottom: 0; /* 하단 정렬 */
+  width: 100%; /* 전체 너비 */
+  z-index: 1000; /* 다른 요소들 위에 오도록 z-index 설정 */
+}

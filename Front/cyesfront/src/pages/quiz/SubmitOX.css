@@ -1,0 +1,8 @@
+.submit-ox-button-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
