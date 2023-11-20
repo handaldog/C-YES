@@ -31,7 +31,6 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class OpenAIPostRequestService {
     private final noCheckProblemRepository noCheckProblemRepository;
-    private static final String OPENAI_API_KEY = "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";
 
         public List<String> sendPostword(String word) throws JsonProcessingException {
 
