@@ -61,9 +61,7 @@
 ![ezgif com-crop (6)](https://github.com/handaldog/C-YES/assets/96431408/e5a73e42-165c-4056-a95d-fa68dbbbd4e0)![ezgif com-crop (7)](https://github.com/handaldog/C-YES/assets/96431408/dd934ae9-2b93-4b3b-9a1b-6edea8fbc6d0)![ezgif com-crop (8)](https://github.com/handaldog/C-YES/assets/96431408/76c8b271-12c8-4220-9168-2d36ebb3dfaa)
 
 ## 그룹 퀴즈
-![ezgif com-crop (13)](https://github.com/handaldog/C-YES/assets/96431408/50322041-4dd0-479b-8bf4-5b02c71231a6)
-![ezgif com-crop (11)](https://github.com/handaldog/C-YES/assets/96431408/6fd13c9e-80a4-4f74-81e5-3043798acf42)
-![ezgif com-crop (12)](https://github.com/handaldog/C-YES/assets/96431408/f5260849-ad26-4b6d-9adb-9c264c553dc7)
+![ezgif com-crop (13)](https://github.com/handaldog/C-YES/assets/96431408/50322041-4dd0-479b-8bf4-5b02c71231a6)![ezgif com-crop (11)](https://github.com/handaldog/C-YES/assets/96431408/6fd13c9e-80a4-4f74-81e5-3043798acf42)![ezgif com-crop (12)](https://github.com/handaldog/C-YES/assets/96431408/f5260849-ad26-4b6d-9adb-9c264c553dc7)
 
 
 
