@@ -252,7 +252,7 @@ socket-server
 | 우승빈            | 배수빈 | 우수인   | 유혜빈  | 유태영  | 조준희  |
 | ----------------- | -------- | -------- | ------- | ------- | ------- |
 | <img src="https://github.com/handaldog/C-YES/assets/96431408/973a0781-2e83-40e0-a0df-e07f8a72a3e7" width="130" height="180">|<img src="https://github.com/handaldog/C-YES/assets/96431408/7402e39d-0b01-41d4-86fe-87076775e417" width="130" height="180">|<img src="https://github.com/handaldog/C-YES/assets/96431408/34b2c650-8e5e-49a6-94b1-080e61429578" width="130" height="180">|<img src="https://github.com/handaldog/C-YES/assets/96431408/efaaad7e-09b2-48d6-a790-88af70e42965" width="130" height="180">|<img src="https://github.com/handaldog/C-YES/assets/96431408/d3efc9c8-3a18-4713-bab2-37bec4561c67" width="130" height="180">|<img src="https://github.com/handaldog/C-YES/assets/96431408/c0e8b853-369c-4e5c-b370-757761c804e3" width="130" height="180">|
-| Leader & Backend | Frontend | Frontend | Infra | Backend | Backend |
+| Leader & Backend | Frontend | Frontend | Infra & Backend | Backend | Backend |
 
 <br>
 <br>
