@@ -64,7 +64,7 @@
 ![ezgif com-crop (13)](https://github.com/handaldog/C-YES/assets/96431408/50322041-4dd0-479b-8bf4-5b02c71231a6)![ezgif com-crop (11)](https://github.com/handaldog/C-YES/assets/96431408/6fd13c9e-80a4-4f74-81e5-3043798acf42)![ezgif com-crop (12)](https://github.com/handaldog/C-YES/assets/96431408/f5260849-ad26-4b6d-9adb-9c264c553dc7)
 
 ## ✅ 관리자 문제 페이지
-![ezgif com-crop (20)](https://github.com/handaldog/C-YES/assets/96431408/dd23edd2-8c74-4cc6-92ac-a87205535386)![ezgif com-crop (21)](https://github.com/handaldog/C-YES/assets/96431408/07d82308-4bf4-4160-98fd-0b4538a36640)![ezgif com-crop (22)](https://github.com/handaldog/C-YES/assets/96431408/62ea5f55-ce18-4471-84cb-a405055e0250)
+<img src="https://github.com/handaldog/C-YES/assets/96431408/8056225b-4fc0-42d7-99d4-4788fb7a0332" width="200" height="400">![ezgif com-crop (20)](https://github.com/handaldog/C-YES/assets/96431408/dd23edd2-8c74-4cc6-92ac-a87205535386)![ezgif com-crop (21)](https://github.com/handaldog/C-YES/assets/96431408/07d82308-4bf4-4160-98fd-0b4538a36640)![ezgif com-crop (22)](https://github.com/handaldog/C-YES/assets/96431408/62ea5f55-ce18-4471-84cb-a405055e0250)
 
 
 # 🛠 주요 기술
